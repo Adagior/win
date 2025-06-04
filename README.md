@@ -205,7 +205,11 @@ your Windows is activated successfully.
 [^6]: To see windows activation status you must to go:  
 ***Settings → Update & Security → activation menu.***
 
-
+```
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+slmgr /skms kms8.msguides.com
+slmgr /ato
+```
 
 ```
 @echo off
